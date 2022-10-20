@@ -1,0 +1,18 @@
+:root{
+    /* ## Colors
+
+    ### Primary */
+    --Soft_blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    /* ### Neutral */
+    --Very_dark_blue_main_BG: hsl(217, 54%, 11%);
+    --Very_dark_blue_card_BG: hsl(216, 50%, 16%);
+    --Very_dark_blue_line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.8rem;
+}
