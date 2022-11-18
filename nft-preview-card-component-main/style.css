@@ -1,4 +1,20 @@
-:root{
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+:root {
+
+
     /* ## Colors
 
     ### Primary */
@@ -10,9 +26,34 @@
     --Very_dark_blue_line: hsl(215, 32%, 27%);
     --White: hsl(0, 0%, 100%);
 }
-html{
-    font-size: 62.5%;
+
+
+p {
+    font-weight: 300;
 }
-body{
-    font-size: 1.8rem;
+
+body {
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--Very_dark_blue_main_BG);
+    color: hsl(0, 0%, 100%, .65);
+    padding: 1.25rem;
+}
+
+
+.container {
+    padding: 1.25rem;
+    background-color: var(--Very_dark_blue_card_BG);
+    border-radius: .5rem;
+}
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
